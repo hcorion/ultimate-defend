@@ -1,0 +1,900 @@
+{
+  "buildable_cards": [
+    {
+      "unique_card_id": "badger_defendPortalSmall",
+      "cost": 0,
+      "tags": [
+        "defendPortalSmall"
+      ],
+      "buildable": "badger:zoner_piglin_defend_territory_low_health"
+    },
+    {
+      "unique_card_id": "badger_occupationDefendPortalSmall",
+      "cost": 0,
+      "tags": [
+        "occupationDefendPortalSmall"
+      ],
+      "buildable": "badger:occupation_zoner_piglin_defend_territory_low_health"
+    },
+    {
+      "unique_card_id": "badger_defendPortalMedium",
+      "cost": 0,
+      "tags": [
+        "defendPortalMedium"
+      ],
+      "buildable": "badger:zoner_piglin_defend_territory_med_health"
+    },
+    {
+      "unique_card_id": "badger_defendPortalLarge",
+      "cost": 0,
+      "tags": [
+        "defendPortalLarge"
+      ],
+      "buildable": "badger:zoner_piglin_defend_territory_high_health"
+    },
+    {
+      "unique_card_id": "badger_defendRallyPoint",
+      "cost": 0,
+      "tags": [
+        "defendRallyPoint"
+      ],
+      "buildable": "badger:prop_piglin_defend_rally_point"
+    }
+  ],
+  "zone_height_change_cards": [
+    {
+      "unique_card_id": "def1HeightDown",
+      "cost": 0,
+      "tags": [
+        "def1HeightDown"
+      ],
+      "biome": "nether_piglin",
+      "zone_height_change": -1,
+      "zone_height_control": "height_control_centered"
+    },
+    {
+      "unique_card_id": "def1Height",
+      "cost": 0,
+      "tags": [
+        "def1Height"
+      ],
+      "biome": "nether_piglin",
+      "zone_height_change": 1,
+      "zone_height_control": "height_control_centered"
+    },
+    {
+      "unique_card_id": "def2Height",
+      "cost": 0,
+      "tags": [
+        "def2Height"
+      ],
+      "biome": "nether_piglin",
+      "zone_height_change": 2,
+      "zone_height_control": "height_control_centered"
+    },
+    {
+      "unique_card_id": "def3Height",
+      "cost": 0,
+      "tags": [
+        "def3Height"
+      ],
+      "biome": "nether_piglin",
+      "zone_height_change": 3,
+      "zone_height_control": "height_control_centered"
+    },
+    {
+      "unique_card_id": "def5Height",
+      "cost": 0,
+      "tags": [
+        "def5Height"
+      ],
+      "biome": "nether_piglin",
+      "zone_height_change": 5,
+      "zone_height_control": "height_control_centered"
+    },
+    {
+      "unique_card_id": "def6Height",
+      "cost": 0,
+      "tags": [
+        "def6Height"
+      ],
+      "biome": "nether_piglin",
+      "zone_height_change": 6,
+      "zone_height_control": "height_control_centered"
+    },
+    {
+      "unique_card_id": "def7Height",
+      "cost": 0,
+      "tags": [
+        "def7Height"
+      ],
+      "biome": "nether_piglin",
+      "zone_height_change": 7,
+      "zone_height_control": "height_control_centered"
+    },
+    {
+      "unique_card_id": "def10Height",
+      "cost": 0,
+      "tags": [
+        "def10Height"
+      ],
+      "biome": "nether_piglin",
+      "zone_height_change": 10,
+      "zone_height_control": "height_control_centered"
+    },
+    {
+      "unique_card_id": "def12Height",
+      "cost": 0,
+      "tags": [
+        "def12Height"
+      ],
+      "biome": "nether_piglin",
+      "zone_height_change": 12,
+      "zone_height_control": "height_control_centered"
+    },
+    {
+      "unique_card_id": "def14Height",
+      "cost": 0,
+      "tags": [
+        "def14Height"
+      ],
+      "biome": "nether_piglin",
+      "zone_height_change": 14,
+      "zone_height_control": "height_control_centered"
+    },
+    {
+      "unique_card_id": "def15Height",
+      "cost": 0,
+      "tags": [
+        "def15Height"
+      ],
+      "biome": "nether_piglin",
+      "zone_height_change": 15,
+      "zone_height_control": "height_control_centered"
+    },
+    {
+      "unique_card_id": "def16Height",
+      "cost": 0,
+      "tags": [
+        "def16Height"
+      ],
+      "biome": "nether_piglin",
+      "zone_height_change": 16,
+      "zone_height_control": "height_control_centered"
+    },
+    {
+      "unique_card_id": "def17Height",
+      "cost": 0,
+      "tags": [
+        "def17Height"
+      ],
+      "biome": "nether_piglin",
+      "zone_height_change": 17,
+      "zone_height_control": "height_control_centered"
+    },
+    {
+      "unique_card_id": "def20Height",
+      "cost": 0,
+      "tags": [
+        "def20Height"
+      ],
+      "biome": "nether_piglin",
+      "zone_height_change": 20,
+      "zone_height_control": "height_control_centered"
+    },
+    {
+      "unique_card_id": "def21Height",
+      "cost": 0,
+      "tags": [
+        "def21Height"
+      ],
+      "biome": "nether_piglin",
+      "zone_height_change": 21,
+      "zone_height_control": "height_control_centered"
+    },
+    {
+      "unique_card_id": "def22Height",
+      "cost": 0,
+      "tags": [
+        "def22Height"
+      ],
+      "biome": "nether_piglin",
+      "zone_height_change": 22,
+      "zone_height_control": "height_control_centered"
+    },
+    {
+      "unique_card_id": "def23Height",
+      "cost": 0,
+      "tags": [
+        "def23Height"
+      ],
+      "biome": "nether_piglin",
+      "zone_height_change": 23,
+      "zone_height_control": "height_control_centered"
+    },
+    {
+      "unique_card_id": "def24Height",
+      "cost": 0,
+      "tags": [
+        "def24Height"
+      ],
+      "biome": "nether_piglin",
+      "zone_height_change": 24,
+      "zone_height_control": "height_control_centered"
+    },
+    {
+      "unique_card_id": "def25Height",
+      "cost": 0,
+      "tags": [
+        "def25Height"
+      ],
+      "biome": "nether_piglin",
+      "zone_height_change": 25,
+      "zone_height_control": "height_control_centered"
+    },
+    {
+      "unique_card_id": "def26Height",
+      "cost": 0,
+      "tags": [
+        "def26Height"
+      ],
+      "biome": "nether_piglin",
+      "zone_height_change": 26,
+      "zone_height_control": "height_control_centered"
+    },
+    {
+      "unique_card_id": "def27Height",
+      "cost": 0,
+      "tags": [
+        "def27Height"
+      ],
+      "biome": "nether_piglin",
+      "zone_height_change": 27,
+      "zone_height_control": "height_control_centered"
+    },
+    {
+      "unique_card_id": "def28Height",
+      "cost": 0,
+      "tags": [
+        "def28Height"
+      ],
+      "biome": "nether_piglin",
+      "zone_height_change": 28,
+      "zone_height_control": "height_control_centered"
+    },
+    {
+      "unique_card_id": "def29Height",
+      "cost": 0,
+      "tags": [
+        "def29Height"
+      ],
+      "biome": "nether_piglin",
+      "zone_height_change": 29,
+      "zone_height_control": "height_control_centered"
+    },
+    {
+      "unique_card_id": "def30Height",
+      "cost": 0,
+      "tags": [
+        "def30Height"
+      ],
+      "biome": "nether_piglin",
+      "zone_height_change": 30,
+      "zone_height_control": "height_control_centered"
+    },
+    {
+      "unique_card_id": "def31Height",
+      "cost": 0,
+      "tags": [
+        "def31Height"
+      ],
+      "biome": "nether_piglin",
+      "zone_height_change": 31,
+      "zone_height_control": "height_control_centered"
+    },
+    {
+      "unique_card_id": "def32Height",
+      "cost": 0,
+      "tags": [
+        "def32Height"
+      ],
+      "biome": "nether_piglin",
+      "zone_height_change": 32,
+      "zone_height_control": "height_control_centered"
+    },
+    {
+      "unique_card_id": "def33Height",
+      "cost": 0,
+      "tags": [
+        "def33Height"
+      ],
+      "biome": "nether_piglin",
+      "zone_height_change": 33,
+      "zone_height_control": "height_control_centered"
+    },
+    {
+      "unique_card_id": "def34Height",
+      "cost": 0,
+      "tags": [
+        "def34Height"
+      ],
+      "biome": "nether_piglin",
+      "zone_height_change": 34,
+      "zone_height_control": "height_control_centered"
+    },
+    {
+      "unique_card_id": "def35Height",
+      "cost": 0,
+      "tags": [
+        "def35Height"
+      ],
+      "biome": "nether_piglin",
+      "zone_height_change": 35,
+      "zone_height_control": "height_control_centered"
+    },
+    {
+      "unique_card_id": "def36Height",
+      "cost": 0,
+      "tags": [
+        "def36Height"
+      ],
+      "biome": "nether_piglin",
+      "zone_height_change": 36,
+      "zone_height_control": "height_control_centered"
+    },
+    {
+      "unique_card_id": "def37Height",
+      "cost": 0,
+      "tags": [
+        "def37Height"
+      ],
+      "biome": "nether_piglin",
+      "zone_height_change": 37,
+      "zone_height_control": "height_control_centered"
+    },
+    {
+      "unique_card_id": "def38Height",
+      "cost": 0,
+      "tags": [
+        "def38Height"
+      ],
+      "biome": "nether_piglin",
+      "zone_height_change": 38,
+      "zone_height_control": "height_control_centered"
+    },
+    {
+      "unique_card_id": "def39Height",
+      "cost": 0,
+      "tags": [
+        "def39Height"
+      ],
+      "biome": "nether_piglin",
+      "zone_height_change": 39,
+      "zone_height_control": "height_control_centered"
+    },
+    {
+      "unique_card_id": "def40Height",
+      "cost": 0,
+      "tags": [
+        "def40Height"
+      ],
+      "biome": "nether_piglin",
+      "zone_height_change": 40,
+      "zone_height_control": "height_control_centered"
+    }
+  ],
+  "zone_filter_cards": [
+    {
+      "unique_card_id": "zone_filter_cards_defGeneralZone",
+      "cost": 0,
+      "tags": [
+        "defGeneralZone"
+      ],
+      "zone_filter": "defGeneralZone",
+      "exclude": true
+    },
+    {
+      "unique_card_id": "zone_filter_cards_defBossZone",
+      "cost": 0,
+      "tags": [
+        "defBossZone"
+      ],
+      "zone_filter": "defBossZone",
+      "exclude": true
+    },
+    {
+      "unique_card_id": "zone_filter_cards_defInnerKeep",
+      "cost": 0,
+      "tags": [
+        "defInnerKeep"
+      ],
+      "zone_filter": "defInnerKeep",
+      "exclude": false
+    },
+    {
+      "unique_card_id": "zone_filter_cards_defMidKeep",
+      "cost": 0,
+      "tags": [
+        "defMidKeep"
+      ],
+      "zone_filter": "defMidKeep",
+      "exclude": false
+    },
+    {
+      "unique_card_id": "zone_filter_cards_defInnerKeepWall",
+      "cost": 0,
+      "tags": [
+        "defInnerKeepWall"
+      ],
+      "zone_filter": "defInnerKeepWall",
+      "exclude": false
+    },
+    {
+      "unique_card_id": "zone_filter_cards_defNotKeepShapeWall",
+      "cost": 0,
+      "tags": [
+        "defNotKeepShapeWall"
+      ],
+      "zone_filter": "defKeepShapeWall",
+      "exclude": true
+    },
+    {
+      "unique_card_id": "zone_filter_cards_defKeepShapeWall",
+      "cost": 0,
+      "tags": [
+        "defKeepShapeWall"
+      ],
+      "zone_filter": "defKeepShapeWall",
+      "exclude": false
+    },
+    {
+      "unique_card_id": "zone_filter_cards_defPathStart",
+      "cost": 0,
+      "tags": [
+        "defPathStart"
+      ],
+      "zone_filter": "defPathStart",
+      "exclude": false
+    },
+    {
+      "unique_card_id": "zone_filter_cards_defBurningEdgePathZone",
+      "cost": 0,
+      "tags": [
+        "defBurningEdgePathZone"
+      ],
+      "zone_filter": "defBurningEdgePathZone",
+      "exclude": false
+    },
+    {
+      "unique_card_id": "zone_filter_cards_defKeepShapePath",
+      "cost": 0,
+      "tags": [
+        "defKeepShapePath"
+      ],
+      "zone_filter": "defKeepShapePath",
+      "exclude": false
+    },
+    {
+      "unique_card_id": "zone_filter_cards_defBetweenWalls",
+      "cost": 0,
+      "tags": [
+        "defBetweenWalls"
+      ],
+      "zone_filter": "defBetweenWalls",
+      "exclude": false
+    },
+    {
+      "unique_card_id": "zone_filter_cards_defCornerZoneWall",
+      "cost": 0,
+      "tags": [
+        "defCornerZoneWall"
+      ],
+      "zone_filter": "defCornerZoneWall",
+      "exclude": false
+    },
+    {
+      "unique_card_id": "zone_filter_cards_defOuterWalls",
+      "cost": 0,
+      "tags": [
+        "defOuterWalls"
+      ],
+      "zone_filter": "defOuterWalls",
+      "exclude": false
+    },
+    {
+      "unique_card_id": "zone_filter_cards_defOutsideWalls",
+      "cost": 0,
+      "tags": [
+        "defOutsideWalls"
+      ],
+      "zone_filter": "defOutsideWalls",
+      "exclude": false
+    },
+    {
+      "unique_card_id": "zone_filter_cards_defOutskirtsPathZone",
+      "cost": 0,
+      "tags": [
+        "defOutskirtsPathZone"
+      ],
+      "zone_filter": "defOutskirtsPathZone",
+      "exclude": false
+    },
+    {
+      "unique_card_id": "zone_filter_cards_defOutskirtsNetherSpreader",
+      "cost": 0,
+      "tags": [
+        "defOutskirtsNetherSpreader"
+      ],
+      "zone_filter": "defOutskirtsNetherSpreader",
+      "exclude": false
+    },
+    {
+      "unique_card_id": "zone_filter_cards_defOuterLayerOfZones",
+      "cost": 0,
+      "tags": [
+        "defOuterLayerOfZones"
+      ],
+      "zone_filter": "defOuterLayerOfZones",
+      "exclude": false
+    }
+  ],
+  "zone_tag_cards": [
+    {
+      "unique_card_id": "zone_tag_cards_defGeneralZone",
+      "cost": 0,
+      "tags": [
+        "defGeneralZone"
+      ],
+      "zone_tag": "defGeneralZone"
+    },
+    {
+      "unique_card_id": "zone_tag_cards_defBossZone",
+      "cost": 0,
+      "tags": [
+        "defBossZone"
+      ],
+      "zone_tag": "defBossZone"
+    },
+    {
+      "unique_card_id": "zone_tag_cards_defInnerKeep",
+      "cost": 0,
+      "tags": [
+        "defInnerKeep"
+      ],
+      "zone_tag": "defInnerKeep"
+    },
+    {
+      "unique_card_id": "zone_tag_cards_defMidKeep",
+      "cost": 0,
+      "tags": [
+        "defMidKeep"
+      ],
+      "zone_tag": "defMidKeep"
+    },
+    {
+      "unique_card_id": "zone_tag_cards_defInnerKeepWall",
+      "cost": 0,
+      "tags": [
+        "defInnerKeepWall"
+      ],
+      "zone_tag": "defInnerKeepWall"
+    },
+    {
+      "unique_card_id": "zone_tag_cards_defKeepShapeWall",
+      "cost": 0,
+      "tags": [
+        "defKeepShapeWall"
+      ],
+      "zone_tag": "defKeepShapeWall"
+    },
+    {
+      "unique_card_id": "zone_tag_cards_defPathStart",
+      "cost": 0,
+      "tags": [
+        "defPathStart"
+      ],
+      "zone_tag": "defPathStart"
+    },
+    {
+      "unique_card_id": "zone_tag_cards_defBurningEdgePathZone",
+      "cost": 0,
+      "tags": [
+        "defBurningEdgePathZone"
+      ],
+      "zone_tag": "defBurningEdgePathZone"
+    },
+    {
+      "unique_card_id": "zone_tag_cards_defKeepShapePath",
+      "cost": 0,
+      "tags": [
+        "defKeepShapePath"
+      ],
+      "zone_tag": "defKeepShapePath"
+    },
+    {
+      "unique_card_id": "zone_tag_cards_defCornerZoneWall",
+      "cost": 0,
+      "tags": [
+        "defCornerZoneWall"
+      ],
+      "zone_tag": "defCornerZoneWall"
+    },
+    {
+      "unique_card_id": "zone_tag_cards_defBetweenWallsTag",
+      "cost": 0,
+      "tags": [
+        "defBetweenWallsTag"
+      ],
+      "zone_tag": "defBetweenWalls"
+    },
+    {
+      "unique_card_id": "zone_tag_cards_defOuterWalls",
+      "cost": 0,
+      "tags": [
+        "defOuterWalls"
+      ],
+      "zone_tag": "defOuterWalls"
+    },
+    {
+      "unique_card_id": "zone_tag_cards_defOutsideWallsTag",
+      "cost": 0,
+      "tags": [
+        "defOutsideWallsTag"
+      ],
+      "zone_tag": "defOutsideWalls"
+    },
+    {
+      "unique_card_id": "zone_tag_cards_defOutskirtsPathZone",
+      "cost": 0,
+      "tags": [
+        "defOutskirtsPathZone"
+      ],
+      "zone_tag": "defOutskirtsPathZone"
+    },
+    {
+      "unique_card_id": "zone_tag_cards_defOutskirtsNetherSpreaderTag",
+      "cost": 0,
+      "tags": [
+        "defOutskirtsNetherSpreaderTag"
+      ],
+      "zone_tag": "defOutskirtsNetherSpreader",
+      "exclude": false
+    },
+    {
+      "unique_card_id": "zone_tag_cards_defOuterLayerOfZones",
+      "cost": 0,
+      "tags": [
+        "defOuterLayerOfZones"
+      ],
+      "zone_tag": "defOuterLayerOfZones"
+    }
+  ],
+  "moat_cards": [
+    {
+      "unique_card_id": "defFarMoat",
+      "cost": 0,
+      "biome": "lava_moat",
+      "filling_depth": 5,
+      "distance_in_zones": 1,
+      "tags": [
+        "defFarMoat"
+      ],
+      "edge_biome": "nether_piglin_lava_border",
+      "edge_width_in_blocks": 1
+    },
+    {
+      "unique_card_id": "defBossMoat",
+      "cost": 0,
+      "biome": "lava_moat",
+      "filling_depth": 2,
+      "distance_in_zones": 1,
+      "tags": [
+        "defBossMoat"
+      ],
+      "edge_biome": "nether_piglin_lava_border",
+      "edge_width_in_blocks": 1
+    },
+    {
+      "unique_card_id": "defendLavaPool",
+      "cost": 0,
+      "tags": [
+        "defendLavaPool"
+      ],
+      "biome": "lava_moat",
+      "distance_in_zones": 0,
+      "filling_depth": 5,
+      "block_filling": "block_lava",
+      "edge_biome": "nether_piglin_lava_border",
+      "edge_width_in_blocks": 1
+    }
+  ],
+  "walls_cards": [
+    {
+      "unique_card_id": "defInnerWalls",
+      "cost": 0,
+      "tags": [
+        "defInnerWalls"
+      ],
+      "wall_buildable": "badger:wall_piglin_inner_001",
+      "path_entrance": "badger:gate_piglin_inner",
+      "embedded_buildables": []
+    },
+    {
+      "unique_card_id": "defTowerWallLight",
+      "cost": 0,
+      "tags": [
+        "defTowerWallLight"
+      ],
+      "wall_buildable": "badger:chunk_piglin_wall_001",
+      "path_entrance": "badger:gate_piglin",
+      "embedded_buildables": []
+    }
+  ],
+  "zones_cards": [
+    {
+      "unique_card_id": "add1Zone",
+      "cost": 0,
+      "number_of_zones": 1,
+      "tags": [
+        "add1Zone"
+      ]
+    },
+    {
+      "unique_card_id": "defCenterZone",
+      "cost": 0,
+      "number_of_zones": 1,
+      "tags": [
+        "defCenterZone"
+      ]
+    },
+    {
+      "unique_card_id": "def6Zones",
+      "cost": 0,
+      "number_of_zones": 6,
+      "tags": [
+        "def6Zones"
+      ]
+    }
+  ],
+  "layer_of_zones_cards": [
+    {
+      "unique_card_id": "defAddLayerOfZones",
+      "cost": 0,
+      "tags": [
+        "defAddLayerOfZones"
+      ]
+    }
+  ],
+  "tag_cards": [
+    {
+      "unique_card_id": "defendInnerKeepBuilding",
+      "cost": 0,
+      "tags": [
+        "defendInnerKeepBuilding"
+      ],
+      "tag": "defendInnerKeepBuilding"
+    },
+    {
+      "unique_card_id": "defendBattleRepairBuilding",
+      "cost": 0,
+      "tags": [
+        "defendBattleRepairBuilding"
+      ],
+      "tag": "defendBattleRepairBuilding"
+    },
+    {
+      "unique_card_id": "defend_raiding_party_cage",
+      "cost": 0,
+      "tags": [
+        "defend_raiding_party_cage"
+      ],
+      "tag": "defend_raiding_party_cage"
+    },
+    {
+      "unique_card_id": "defendAttackRallyPoint",
+      "cost": 0,
+      "tags": [
+        "defendAttackRallyPoint"
+      ],
+      "tag": "defendAttackRallyPoint"
+    },
+    {
+      "unique_card_id": "defendDefendRallyPoint",
+      "cost": 0,
+      "tags": [
+        "defendDefendRallyPoint"
+      ],
+      "tag": "defendDefendRallyPoint"
+    },
+    {
+      "unique_card_id": "defendSiegeRallyPoint",
+      "cost": 0,
+      "tags": [
+        "defendSiegeRallyPoint"
+      ],
+      "tag": "defendSiegeRallyPoint"
+    },
+    {
+      "unique_card_id": "defendHordeSiegeAiRally",
+      "cost": 0,
+      "tags": [
+        "defendHordeSiegeAiRally"
+      ],
+      "tag": "defendHordeSiegeAiRally"
+    },
+    {
+      "unique_card_id": "defendHordeDefendAiRally",
+      "cost": 0,
+      "tags": [
+        "defendHordeDefendAiRally"
+      ],
+      "tag": "defendHordeDefendAiRally"
+    },
+    {
+      "unique_card_id": "defendHordeUniqueAiRally",
+      "cost": 0,
+      "tags": [
+        "defendHordeUniqueAiRally"
+      ],
+      "tag": "defendHordeUniqueAiRally"
+    },
+    {
+      "unique_card_id": "barracksdefendHordeSiege0",
+      "cost": 0,
+      "tags": [
+        "barracksdefendHordeSiege0"
+      ],
+      "tag": "barracksdefendHordeSiege0"
+    },
+    {
+      "unique_card_id": "barracksdefendHordeSiege1",
+      "cost": 0,
+      "tags": [
+        "barracksdefendHordeSiege1"
+      ],
+      "tag": "barracksdefendHordeSiege1"
+    },
+    {
+      "unique_card_id": "barracksdefendHordeDefend0",
+      "cost": 0,
+      "tags": [
+        "barracksdefendHordeDefend0"
+      ],
+      "tag": "barracksdefendHordeDefend0"
+    },
+    {
+      "unique_card_id": "barracksdefendHordeDefend1",
+      "cost": 0,
+      "tags": [
+        "barracksdefendHordeDefend1"
+      ],
+      "tag": "barracksdefendHordeDefend1"
+    },
+    {
+      "unique_card_id": "barracksdefendHordeUnique0",
+      "cost": 0,
+      "tags": [
+        "barracksdefendHordeUnique0"
+      ],
+      "tag": "barracksdefendHordeUnique0"
+    },
+    {
+      "unique_card_id": "barracksdefendHordeUnique1",
+      "cost": 0,
+      "tags": [
+        "barracksdefendHordeUnique1"
+      ],
+      "tag": "barracksdefendHordeUnique1"
+    }
+  ],
+  "path_cards": [
+    {
+      "unique_card_id": "defend_district_path",
+      "cost": 0,
+      "tags": [
+        "defend_district_path"
+      ],
+      "is_district_path": true
+    }
+  ]
+}

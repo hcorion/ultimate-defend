@@ -1,0 +1,451 @@
+{
+    "buildable_cards": [
+        {
+        "unique_card_id": "badger_antiSiegeTower",
+        "cost": 0,
+        "tags": [
+            "antiSiegeTower"
+        ],
+        "buildable": "badger:tower_anti_siege"
+        }
+    ],
+    "district_cards": [
+        {
+            "unique_card_id": "district_cards_defKeepDistrict",
+            "cost": 0,
+            "tags": [
+                "defKeepDistrict"
+            ],
+            "district": "defKeepDistrict"
+        },
+        {
+            "unique_card_id": "district_cards_defNorthEdgeDistrict",
+            "cost": 0,
+            "tags": [
+                "defNorthEdgeDistrict"
+            ],
+            "district": "defNorthEdgeDistrict"
+        },
+        {
+            "unique_card_id": "district_cards_defEastEdgeDistrict",
+            "cost": 0,
+            "tags": [
+                "defEastEdgeDistrict"
+            ],
+            "district": "defEastEdgeDistrict"
+        },
+        {
+            "unique_card_id": "district_cards_defSouthEdgeDistrict",
+            "cost": 0,
+            "tags": [
+                "defSouthEdgeDistrict"
+            ],
+            "district": "defSouthEdgeDistrict"
+        },
+        {
+            "unique_card_id": "district_cards_defWestEdgeDistrict",
+            "cost": 0,
+            "tags": [
+                "defWestEdgeDistrict"
+            ],
+            "district": "defWestEdgeDistrict"
+        },
+        {
+            "unique_card_id": "district_cards_defNorthEastCornerDistrict",
+            "cost": 0,
+            "tags": [
+                "defNorthEastCornerDistrict"
+            ],
+            "district": "defNorthEastCornerDistrict"
+        },
+        {
+            "unique_card_id": "district_cards_defSouthEastCornerDistrict",
+            "cost": 0,
+            "tags": [
+                "defSouthEastCornerDistrict"
+            ],
+            "district": "defSouthEastCornerDistrict"
+        },
+        {
+            "unique_card_id": "district_cards_defSouthWestCornerDistrict",
+            "cost": 0,
+            "tags": [
+                "defSouthWestCornerDistrict"
+            ],
+            "district": "defSouthWestCornerDistrict"
+        },
+        {
+            "unique_card_id": "district_cards_defNorthWestCornerDistrict",
+            "cost": 0,
+            "tags": [
+                "defNorthWestCornerDistrict"
+            ],
+            "district": "defNorthWestCornerDistrict"
+        }
+    ],
+    "layer_of_zones_cards": [],
+    "path_cards": [],
+    "placement_preference_cards": [
+        {
+            "unique_card_id": "placement_preference_defCornerDistanceRange",
+            "cost": 0,
+            "tags": [
+                "defCornerDistanceRange"
+            ],
+            "placement_preference": "distance_from_district_start",
+            "distance_from_district_start": [
+                200,
+                200
+            ],
+            "distance_to_zero_score": [
+                1,
+                10
+            ]
+        }
+    ],
+    "tag_cards": [
+        {
+            "unique_card_id": "defNorthEastCoil",
+            "cost": 0,
+            "tags": [
+                "defNorthEastCoil"
+            ],
+            "tag": "defNorthEastCoil"
+        },
+        {
+            "unique_card_id": "defSouthEastCoil",
+            "cost": 0,
+            "tags": [
+                "defSouthEastCoil"
+            ],
+            "tag": "defSouthEastCoil"
+        },
+        {
+            "unique_card_id": "defSouthWestCoil",
+            "cost": 0,
+            "tags": [
+                "defSouthWestCoil"
+            ],
+            "tag": "defSouthWestCoil"
+        },
+        {
+            "unique_card_id": "defNorthWestCoil",
+            "cost": 0,
+            "tags": [
+                "defNorthWestCoil"
+            ],
+            "tag": "defNorthWestCoil"
+        }
+    ],
+    "walls_cards": [],
+    "zone_tag_cards": [
+        {
+            "unique_card_id": "zone_tag_cards_defKeepLayer1",
+            "cost": 0,
+            "tags": [
+                "defKeepLayer1"
+            ],
+            "zone_tag": "defKeepLayer1"
+        },
+        {
+            "unique_card_id": "zone_tag_cards_defKeepLayer2",
+            "cost": 0,
+            "tags": [
+                "defKeepLayer2"
+            ],
+            "zone_tag": "defKeepLayer2"
+        },
+        {
+            "unique_card_id": "zone_tag_cards_defNorthEastCorner",
+            "cost": 0,
+            "tags": [
+                "defNorthEastCorner"
+            ],
+            "zone_tag": "defNorthEastCorner"
+        },
+        {
+            "unique_card_id": "zone_tag_cards_defSouthEastCorner",
+            "cost": 0,
+            "tags": [
+                "defSouthEastCorner"
+            ],
+            "zone_tag": "defSouthEastCorner"
+        },
+        {
+            "unique_card_id": "zone_tag_cards_defSouthWestCorner",
+            "cost": 0,
+            "tags": [
+                "defSouthWestCorner"
+            ],
+            "zone_tag": "defSouthWestCorner"
+        },
+        {
+            "unique_card_id": "zone_tag_cards_defNorthWestCorner",
+            "cost": 0,
+            "tags": [
+                "defNorthWestCorner"
+            ],
+            "zone_tag": "defNorthWestCorner"
+        },
+        {
+            "unique_card_id": "zone_tag_cards_defNorthZone1",
+            "cost": 0,
+            "tags": [
+                "defNorthZone1"
+            ],
+            "zone_tag": "defNorthZone1"
+        },
+        {
+            "unique_card_id": "zone_tag_cards_defNorthZone2",
+            "cost": 0,
+            "tags": [
+                "defNorthZone2"
+            ],
+            "zone_tag": "defNorthZone2"
+        },
+        {
+            "unique_card_id": "zone_tag_cards_defNorthZone3",
+            "cost": 0,
+            "tags": [
+                "defNorthZone3"
+            ],
+            "zone_tag": "defNorthZone3"
+        },
+        {
+            "unique_card_id": "zone_tag_cards_defEastZone1",
+            "cost": 0,
+            "tags": [
+                "defEastZone1"
+            ],
+            "zone_tag": "defEastZone1"
+        },
+        {
+            "unique_card_id": "zone_tag_cards_defEastZone2",
+            "cost": 0,
+            "tags": [
+                "defEastZone2"
+            ],
+            "zone_tag": "defEastZone2"
+        },
+        {
+            "unique_card_id": "zone_tag_cards_defEastZone3",
+            "cost": 0,
+            "tags": [
+                "defEastZone3"
+            ],
+            "zone_tag": "defEastZone3"
+        },
+        {
+            "unique_card_id": "zone_tag_cards_defSouthZone1",
+            "cost": 0,
+            "tags": [
+                "defSouthZone1"
+            ],
+            "zone_tag": "defSouthZone1"
+        },
+        {
+            "unique_card_id": "zone_tag_cards_defSouthZone2",
+            "cost": 0,
+            "tags": [
+                "defSouthZone2"
+            ],
+            "zone_tag": "defSouthZone2"
+        },
+        {
+            "unique_card_id": "zone_tag_cards_defSouthZone3",
+            "cost": 0,
+            "tags": [
+                "defSouthZone3"
+            ],
+            "zone_tag": "defSouthZone3"
+        },
+        {
+            "unique_card_id": "zone_tag_cards_defWestZone1",
+            "cost": 0,
+            "tags": [
+                "defWestZone1"
+            ],
+            "zone_tag": "defWestZone1"
+        },
+        {
+            "unique_card_id": "zone_tag_cards_defWestZone2",
+            "cost": 0,
+            "tags": [
+                "defWestZone2"
+            ],
+            "zone_tag": "defWestZone2"
+        },
+        {
+            "unique_card_id": "zone_tag_cards_defWestZone3",
+            "cost": 0,
+            "tags": [
+                "defWestZone3"
+            ],
+            "zone_tag": "defWestZone3"
+        }
+    ],
+    "zone_filter_cards": [
+        {
+            "unique_card_id": "zone_filter_cards_defKeepLayer1",
+            "cost": 0,
+            "tags": [
+                "defKeepLayer1"
+            ],
+            "zone_filter": "defKeepLayer1",
+            "exclude": false
+        },
+        {
+            "unique_card_id": "zone_filter_cards_defKeepLayer2",
+            "cost": 0,
+            "tags": [
+                "defKeepLayer2"
+            ],
+            "zone_filter": "defKeepLayer2",
+            "exclude": false
+        },
+        {
+            "unique_card_id": "zone_filter_cards_defNorthEastCorner",
+            "cost": 0,
+            "tags": [
+                "defNorthEastCorner"
+            ],
+            "zone_filter": "defNorthEastCorner",
+            "exclude": false
+        },
+        {
+            "unique_card_id": "zone_filter_cards_defSouthEastCorner",
+            "cost": 0,
+            "tags": [
+                "defSouthEastCorner"
+            ],
+            "zone_filter": "defSouthEastCorner",
+            "exclude": false
+        },
+        {
+            "unique_card_id": "zone_filter_cards_defSouthWestCorner",
+            "cost": 0,
+            "tags": [
+                "defSouthWestCorner"
+            ],
+            "zone_filter": "defSouthWestCorner",
+            "exclude": false
+        },
+        {
+            "unique_card_id": "zone_filter_cards_defNorthWestCorner",
+            "cost": 0,
+            "tags": [
+                "defNorthWestCorner"
+            ],
+            "zone_filter": "defNorthWestCorner",
+            "exclude": false
+        },
+        {
+            "unique_card_id": "zone_filter_cards_defNorthZone1",
+            "cost": 0,
+            "tags": [
+                "defNorthZone1"
+            ],
+            "zone_filter": "defNorthZone1",
+            "exclude": false
+        },
+        {
+            "unique_card_id": "zone_filter_cards_defNorthZone2",
+            "cost": 0,
+            "tags": [
+                "defNorthZone2"
+            ],
+            "zone_filter": "defNorthZone2",
+            "exclude": false
+        },
+        {
+            "unique_card_id": "zone_filter_cards_defNorthZone3",
+            "cost": 0,
+            "tags": [
+                "defNorthZone3"
+            ],
+            "zone_filter": "defNorthZone3",
+            "exclude": false
+        },
+        {
+            "unique_card_id": "zone_filter_cards_defEastZone1",
+            "cost": 0,
+            "tags": [
+                "defEastZone1"
+            ],
+            "zone_filter": "defEastZone1",
+            "exclude": false
+        },
+        {
+            "unique_card_id": "zone_filter_cards_defEastZone2",
+            "cost": 0,
+            "tags": [
+                "defEastZone2"
+            ],
+            "zone_filter": "defEastZone2",
+            "exclude": false
+        },
+        {
+            "unique_card_id": "zone_filter_cards_defEastZone3",
+            "cost": 0,
+            "tags": [
+                "defEastZone3"
+            ],
+            "zone_filter": "defEastZone3",
+            "exclude": false
+        },
+        {
+            "unique_card_id": "zone_filter_cards_defSouthZone1",
+            "cost": 0,
+            "tags": [
+                "defSouthZone1"
+            ],
+            "zone_filter": "defSouthZone1",
+            "exclude": false
+        },
+        {
+            "unique_card_id": "zone_filter_cards_defSouthZone2",
+            "cost": 0,
+            "tags": [
+                "defSouthZone2"
+            ],
+            "zone_filter": "defSouthZone2",
+            "exclude": false
+        },
+        {
+            "unique_card_id": "zone_filter_cards_defSouthZone3",
+            "cost": 0,
+            "tags": [
+                "defSouthZone3"
+            ],
+            "zone_filter": "defSouthZone3",
+            "exclude": false
+        },
+        {
+            "unique_card_id": "zone_filter_cards_defWestZone1",
+            "cost": 0,
+            "tags": [
+                "defWestZone1"
+            ],
+            "zone_filter": "defWestZone1",
+            "exclude": false
+        },
+        {
+            "unique_card_id": "zone_filter_cards_defWestZone2",
+            "cost": 0,
+            "tags": [
+                "defWestZone2"
+            ],
+            "zone_filter": "defWestZone2",
+            "exclude": false
+        },
+        {
+            "unique_card_id": "zone_filter_cards_defWestZone3",
+            "cost": 0,
+            "tags": [
+                "defWestZone3"
+            ],
+            "zone_filter": "defWestZone3",
+            "exclude": false
+        }
+    ]
+}

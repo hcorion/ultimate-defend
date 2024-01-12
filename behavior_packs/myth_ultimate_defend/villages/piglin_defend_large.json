@@ -1,0 +1,40 @@
+{
+    "format_version": "1.8.0",
+    "minecraft:entity": {
+        "description": {
+            "identifier": "badger:piglin_defend_large",
+            "is_summonable": true
+        },
+        "components": {
+            "badger:waypoint_marker_visibility": {
+                "waypoint_min_range": 10,
+                "waypoint_max_range": 10,
+                "compass_max_range": "medium",
+                "filter_tagsets": [
+                    {
+                        "include_tags": [],
+                        "exclude_tags": ["base_assault", "village_attack"]
+                    }
+                ]
+            },
+            "badger:waypoint_marker": {
+                "path": "waypoint_piglinbase_unbreak_large",
+                "label": "messages.map_marker_ping.selected.piglin.defend.large",
+                "world_position_offset": [0, 3, 0]
+            },
+            "badger:village": {
+                "name": "Piglin Defend"
+            },
+            "badger:village_building_placement": {},
+            "badger:village_zone": {
+                "expansion_distance": 500.0,
+                "zone_jitter_min": 0.0,
+                "zone_jitter_max": 3.0,
+                "is_zone_jitter_bell_curve": false,
+                "zone_spacing": 18.0,
+                "water_search_resolution": 6.0
+            },
+            "badger:template": "badger:piglin_defend"
+        }
+    }
+}

@@ -1,0 +1,179 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:entity": {
+      "description": {
+          "identifier": "badger:ai_entity_defend_siege",
+          "runtime_identifier": "badger:ai"
+      },
+      "components": {
+          "badger:influence_map_ai": {
+              "map_resolution": 5,
+              "map_decay": 0.02,
+              "perception_radius": 530,
+              "query_name": "default"
+          },
+          "badger:damage_influence_source": {
+              "sensors": [
+                    {
+                      "inflictor_or_receiver_position": "inflictor",
+                      "damage_type_filter": {
+                        "include_all": [],
+                        "exclude_any": []
+                      },
+                      "damage_receiver_filter": {
+                        "include_tags": ["piglin", "buildable"],
+                        "exclude_tags": ["portal_piglin", "pigCrystal"],
+                        "alliance_rule_filter" : "friendly"
+                      },
+                      "multiplier" : 10,
+                      "propagation_decay": 0.02
+                    },
+                    {
+                      "inflictor_or_receiver_position": "inflictor",
+                      "damage_type_filter": {
+                        "include_all": [],
+                        "exclude_any": []
+                      },
+                      "damage_receiver_filter": {
+                        "include_tags": ["portal_piglin"],
+                        "exclude_tags": [],
+                        "alliance_rule_filter" : "friendly"
+                      },
+                      "multiplier" : 100,
+                      "propagation_decay": 0.02
+                    },
+                    {
+                      "inflictor_or_receiver_position": "inflictor",
+                      "damage_type_filter": {
+                        "include_all": [],
+                        "exclude_any": ["hazard", "lava", "fall_damage", "fire"]
+                      },
+                      "damage_receiver_filter": {
+                        "include_tags": ["boss"],
+                        "exclude_tags": [],
+                        "alliance_rule_filter" : "friendly"
+                      },
+                      "multiplier" : 100,
+                      "propagation_decay": 0.02
+                    },
+                    {
+                      "inflictor_or_receiver_position": "inflictor",
+                      "damage_type_filter": {
+                        "include_all": [],
+                        "exclude_any": []
+                      },
+                      "damage_receiver_filter": {
+                        "include_tags": ["pigCrystal"],
+                        "exclude_tags": [],
+                        "alliance_rule_filter" : "friendly"
+                      },
+                      "multiplier" : 15,
+                      "propagation_decay": 0.02
+                    }
+              ]
+            },
+          "badger:buildable_creation_influence_source": {
+              "sensors": [
+                  {
+                      "building_start_or_complete": "complete",
+                      "damage_receiver_filter": {
+                          "include_tags": ["creeperspawner"],
+                          "exclude_tags": [],
+                          "alliance_rule_filter": "enemy"
+                      },
+                      "multiplier": 40,
+                      "propagation_decay": 0.02
+                  },
+                  {
+                      "building_start_or_complete": "start",
+                      "damage_receiver_filter": {
+                          "include_tags": ["skeletonspawner"],
+                          "exclude_tags": [],
+                          "alliance_rule_filter": "enemy"
+                      },
+                      "multiplier": 40,
+                      "propagation_decay": 0.02
+                  },
+                  {
+                      "building_start_or_complete": "complete",
+                      "damage_receiver_filter": {
+                          "include_tags": ["antiSiegeTower"],
+                          "exclude_tags": [],
+                          "alliance_rule_filter": "enemy"
+                      },
+                      "multiplier": 60,
+                      "propagation_decay": 0.02
+                  },
+                  {
+                      "building_start_or_complete": "start",
+                      "damage_receiver_filter": {
+                          "include_tags": ["redStoneLauncher"],
+                          "exclude_tags": [],
+                          "alliance_rule_filter": "enemy"
+                      },
+                      "multiplier": 40,
+                      "propagation_decay": 0.02
+                  },
+                  {
+                    "building_start_or_complete": "complete",
+                    "damage_receiver_filter": {
+                        "include_tags": ["redStoneLauncher"],
+                        "exclude_tags": [],
+                        "alliance_rule_filter": "enemy"
+                    },
+                    "multiplier": 80,
+                    "propagation_decay": 0.02
+                   },
+                   {
+                    "building_start_or_complete": "complete",
+                    "damage_receiver_filter": {
+                        "include_tags": ["wall"],
+                        "exclude_tags": [],
+                        "alliance_rule_filter": "enemy"
+                    },
+                    "multiplier": 30,
+                    "propagation_decay": 0.02
+                   },
+                   {
+                    "building_start_or_complete": "complete",
+                    "damage_receiver_filter": {
+                        "include_tags": ["outpost"],
+                        "exclude_tags": [],
+                        "alliance_rule_filter": "enemy"
+                    },
+                    "multiplier": 30,
+                    "propagation_decay": 0.02
+                   },
+                   {
+                    "building_start_or_complete": "complete",
+                    "damage_receiver_filter": {
+                        "include_tags": ["buff_platform"],
+                        "exclude_tags": [],
+                        "alliance_rule_filter": "enemy"
+                    },
+                    "multiplier": 40,
+                    "propagation_decay": 0.02
+                   },
+                  {
+                      "building_start_or_complete": "complete",
+                      "damage_receiver_filter": {
+                          "include_tags": ["buildable"],
+                          "exclude_tags": ["creeperspawner", "skeletonspawner", "antiSiegeTower", "redStoneLauncher", "wall", "outpost", "buff_platform"],
+                          "alliance_rule_filter": "enemy"
+                      },
+                      "multiplier": 20,
+                      "propagation_decay": 0.02
+                  }
+              ]
+          },
+          "badger:tags": {
+              "tags": [
+                "scriptedAi",
+                "piglin",
+                "defendAi",
+                "defendHordeSiegeAi"
+              ]
+          }
+      }
+  }
+}

@@ -1,0 +1,33 @@
+{
+    "defaults": {
+        "autosaveenabled": true,
+        "bsharpenabled": true,
+        "campaignactsenabled": false,
+        "creativemodedefault": false,
+        "difficultymodeenabled": true,
+        "dodaylightcycle": false,
+        "dofogofwar": true,
+        "doplayersinvincible": false,
+        "doweathercycle": true,
+        "enablecinematicdeaths": true,
+        "enableunlocks": true,
+        "entitystreamingenabled": false,
+        "exclusiveluredunits": true,
+        "mapenabled": true,
+        "onboardingenabledcampaign": false,
+        "onboardingenabledpvp": false,
+        "popcapenabled": true,
+        "precachestructures": true,
+        "randomstartingteam": false,
+        "saveonquitenabled": true,
+        "skip_lobby_creation": false,
+        "teamcolors": false,
+        "usedlctelemetry": false,
+        "useactiontelemetry": false,
+        "worldsizeaxischunks": 500
+    },
+    "badger:template": {
+        "game_mode": "myth_ultimate_defend",
+        "parent": "game_rules"
+    }
+}

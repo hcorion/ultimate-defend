@@ -1,0 +1,26 @@
+{
+    "badger:in_game_ui": {
+      "badger:template": {
+        "parent": "badger:in_game_ui",
+        "game_mode": "myth_ultimate_defend"
+      },
+      "hud_initial_visible_elements": [
+        "hud_hearts",
+        "hud_compass",
+        "hud_toolbar",
+        "hud_hotbar",
+        "hud_quickslot",
+        "hud_spawner_bar_flames",
+        "hud_spawner_bar_spawners",
+        "hud_spawner_bar_build_allays",
+        "hud_spawner_bar_gather_allays",
+        "hud_map",
+        "hud_face_buttons",
+        "hud_resource_bar_core",
+        "hud_resource_bar_other",
+        "hud_objective_health_bars",
+        "hud_global_timer",
+        "songbook"
+      ]
+    }
+  }

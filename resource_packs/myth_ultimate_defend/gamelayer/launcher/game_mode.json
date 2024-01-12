@@ -1,0 +1,18 @@
+{
+    "game_modes": [
+        {
+            "name": "myth_ultimate_defend",
+            "level_name": "myth_ultimate_defend.levelname",
+            "loading_tip_set": "myth_ultimate_defend",
+            "behavior_pack": "1f730125-319d-4629-bd83-8e169c71861b",
+            "resource_pack": "42d49607-4382-4328-963c-f234da821cb5",
+            "parent": "lost_legend",
+            "telemetry_name": "Myth_ultimate_defend"
+        }
+    ],
+    "myths_hub_host_list": [
+        {
+            "name": "myth_ultimate_defend"
+        }
+    ]
+}

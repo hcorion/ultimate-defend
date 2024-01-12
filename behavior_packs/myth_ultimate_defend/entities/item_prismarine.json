@@ -1,0 +1,28 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "badger:item_prismarine",
+      "is_summonable": true,
+      "runtime_identifier": "badger:badger_mob"
+    },
+    "components": {
+      "badger:aabb": {
+        "height": 0.562500076294,
+        "length": 0.0625,
+        "width": 0.15625
+      },
+      "badger:removal_time": {
+        "time": 0
+      },
+      "badger:template": "badger:template_item_orb",
+      "badger:tags": {
+        "tags": [
+          "item",
+          "xp_common",
+          "ghostTriggerFriendly"
+        ]
+      }
+    }
+  }
+}

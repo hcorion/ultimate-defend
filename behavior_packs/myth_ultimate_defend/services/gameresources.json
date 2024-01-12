@@ -1,0 +1,130 @@
+{
+    "badger:game_resources_service": {
+        "badger:template": {
+            "parent": "badger:game_resources_service",
+            "game_mode": "myth_ultimate_defend"
+        },
+        "game_resources": [
+            {
+                "resource": "lure_cap",
+                "type": "team",
+                "category": "unlock",
+                "default_amount": 60,
+                "starting_cap": 60
+            },
+            {
+                "resource": "lure_type",
+                "type": "team",
+                "category": "unlock",
+                "default_amount": 1
+            },
+            {
+                "resource": "lure_unlock",
+                "type": "team",
+                "category": "unlock",
+                "default_amount": 1
+            },
+            {
+                "resource": "direct_unlock",
+                "type": "team",
+                "category": "unlock",
+                "default_amount": 1
+            },
+            {
+                "resource": "advanced_direct_unlock",
+                "type": "team",
+                "category": "unlock",
+                "default_amount": 1
+            },
+            {
+                "resource": "battle_view_unlock",
+                "type": "team",
+                "category": "unlock",
+                "default_amount": 1
+            },
+            //core resources
+            {
+                "resource": "wood",
+                "type": "team",
+                "default_amount": 0,
+                "starting_cap": 5000,
+                "telemetry_track": true,
+                "journal_category": "resources"
+            },
+            {
+                "resource": "stone",
+                "type": "team",
+                "default_amount": 0,
+                "starting_cap": 5000,
+                "telemetry_track": true,
+                "journal_category": "resources"
+            },
+            {
+                "resource": "iron",
+                "type": "team",
+                "default_amount": 0,
+                "starting_cap": 5000,
+                "telemetry_track": true,
+                "journal_category": "resources"
+            },
+            {
+                "resource": "coal",
+                "type": "team",
+                "default_amount": 0,
+                "starting_cap": 5000,
+                "telemetry_track": true
+            },
+            {
+                "resource": "gold",
+                "type": "team",
+                "archetype_name": "badger:item_gold",
+                "stack_size": 1,
+                "default_amount": 0,
+                "starting_cap": 5000,
+                "telemetry_track": true,
+                "journal_category": "resources"
+            },
+            {
+                "resource": "diamond",
+                "type": "team",
+                "default_amount": 0,
+                "starting_cap": 5000,
+                "telemetry_track": true,
+                "journal_category": "resources"
+            },
+            {
+                "resource": "redstone",
+                "type": "team",
+                "default_amount": 0,
+                "starting_cap": 5000,
+                "telemetry_track": true,
+                "journal_category": "resources"
+            },
+            //Misc Resources
+            //Common
+            {
+                "resource": "emerald",
+                "type": "team",
+                "archetype_name": "badger:item_lapis_lazuli",
+                "default_amount": 0,
+                "starting_cap": 5000,
+                "stack_size": 5,
+                "has_hud_depleted_notification": true,
+                "telemetry_track": true,
+                "journal_category": "resources"
+            },
+            //XP Drops
+            //Common
+            {
+                "resource": "xp_common",
+                "type": "team",
+                "archetype_name": "badger:item_prismarine",
+                "default_amount": 0,
+                "starting_cap": 5000,
+                "stack_size": 1,
+                "telemetry_track": true,
+                "journal_category": "resources"
+            }
+        ]
+    }
+}

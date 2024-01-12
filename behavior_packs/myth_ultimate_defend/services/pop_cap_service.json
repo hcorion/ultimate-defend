@@ -1,0 +1,29 @@
+{
+    "badger:pop_cap_service": {
+        "badger:template": {
+            "parent": "badger:pop_cap_service",
+            "game_mode": "myth_ultimate_defend"
+        },
+        "configurations": [
+            {
+                "teams": [
+                    "team_one",
+                    "team_two"
+                ],
+                "pop_cap": 100
+            },
+            {
+                "teams": [
+                    "piglin_team"
+                ],
+                "pop_cap": 400
+            },
+            {
+                "teams": [
+                    "wild_team"
+                ],
+                "pop_cap": 150
+            }
+        ]
+    }
+}

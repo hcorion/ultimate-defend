@@ -1,0 +1,25 @@
+{
+    "custom_game_rules": {
+        "rules": {
+            "campaignbasesenabled": true,
+            "matchstartbyhqsbuilt": false,
+            "matchendbylasthqstanding": false,
+            "autoplacehqsontimer": false,
+            "teamcount": 1,
+            "invasionenabled": false,
+            "custom_stone_density": 5,
+            "custom_iron_density": 2,
+            "custom_redstone_density": 2,
+            "custom_coal_density": 2,
+            "custom_diamond_density": 2,
+            "roaming_animals": false,
+            "roaming_piglins": false,
+            "piglins_guard_resources": true,
+            "world_mobs": true
+        },
+        "badger:template": {
+            "parent": "custom_game_rules",
+            "game_mode": "myth_ultimate_defend"
+        }
+    }
+}

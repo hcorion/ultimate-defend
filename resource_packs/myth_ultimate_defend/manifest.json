@@ -1,0 +1,17 @@
+{
+    "format_version": 1,
+    "header": {
+        "description": "myth_ultimate_defend",
+        "name": "myth_ultimate_defend",
+        "uuid": "42d49607-4382-4328-963c-f234da821cb5",
+        "version": [ 1, 0, 0 ]
+    },
+    "modules": [
+        {
+            "description": "myth_ultimate_defend",
+            "type": "resources",
+            "uuid": "f51d9ab1-e949-4127-a376-f421fcdfc8eb",
+            "version": [ 1, 0, 0 ]
+        }
+    ]
+}

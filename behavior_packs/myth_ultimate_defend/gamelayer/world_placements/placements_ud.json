@@ -1,0 +1,282 @@
+{
+    "settings": {
+        "seconds_per_played_faction_card": 0.25
+    },
+    "factions": [
+        // WORLD center
+        {
+            "unique_card_id": "myth_center",
+            "placement_name": "center",
+            "placement_type": "special",
+            "spawn_entity": "badger:world_center_locator",
+            "initial_villages": {
+                "small": {
+                    "count": 1
+                }
+            },
+            "biome": {
+                "biome": "generic",
+                "total_pixels": 10,
+                "starting_pixels": 1,
+                "spread_priority": 1
+            },
+            "tags": [
+                "myth",
+                "center"
+            ],
+            "placement_rules": [
+                {
+                    "game_start": {}
+                }
+            ]
+        },
+        {
+            "unique_card_id": "myth_fountain_village",
+            "map_data": "badger:villager_culture_001",
+            "village_data": "badger:villager_village_001",
+            "placement_name": "fountain_village",
+            "placement_type": "village",
+            "add_to_poi_graph": true,
+            "allow_rivers_nearby": true,
+            "initial_villages": {
+                "small": {
+                    "count": 1
+                }
+            },
+            "biome": {
+                "biome": "grasslands",
+                "total_pixels": 8,
+                "starting_pixels": 6,
+                "spread_priority": 0
+            },
+            "textures": [
+                {
+                    "enabled": true,
+                    "texture_key": "primary_texture",
+                    "texture_name": "utopia_biome_village_stamp",
+                    "manual_height": true,
+                    "manual_height_range": [
+                        30,
+                        36
+                    ]
+                }
+            ],
+            "tags": [
+                "myth",
+                "fountain_village"
+            ],
+            "jitter": 0,
+            "placement_rules": [
+                {
+                    "distance": {
+                        "chunk_distance_from_parent": [
+                            0,
+                            2
+                        ],
+                        "distance_to_zero_score": 20,
+                        "tag_parent": "center",
+                        "weight": 1
+                    }
+                }
+            ]
+        },
+        // the base
+        {
+            "unique_card_id": "myth_piglin_bases_large_1",
+            "map_data": "badger:piglin_defend_faction",
+            "village_data": "badger:piglin_defend",
+            "placement_name": "piglin_bases_large",
+            "placement_type": "special",
+            "add_to_poi_graph": true,
+            "initial_villages": {
+                "small": {
+                    "count": 0,
+                    "invasion": 0
+                },
+                "medium": {
+                    "count": 0,
+                    "invasion": 0
+                },
+                "large": {
+                    "count": 1,
+                    "invasion": 0
+                },
+                "frontlineA": {
+                    "count": 0,
+                    "invasion": 0
+                }
+            },
+            "biome": {
+                "biome": "grasslands",
+                "total_pixels": 30,
+                "starting_pixels": 25,
+                "spread_priority": 0
+            },
+            "textures": [
+                {
+                    "enabled": true,
+                    "texture_key": "primary_texture",
+                    "texture_name": "piglin_biome_defend_medium",
+                    "manual_height": true,
+                    "manual_height_range": [
+                        10,
+                        20
+                    ]
+                }
+            ],
+            "tags": [
+                "myth",
+                "piglin_defend_large"
+            ],
+            "placement_rules": [
+                {
+                    "distance": {
+                        "chunk_distance_from_parent": [
+                            24,
+                            25
+                        ],
+                        "distance_to_zero_score": [0, 5],
+                        "tag_parent": "fountain_village",
+                        "weight": 50
+                    }
+                }
+            ]
+        },
+        // JUNGLE BIOME
+        {
+            "unique_card_id": "myth_jungle",
+            "placement_name": "jungle",
+            "placement_type": "biome",
+            "initial_villages": {
+                "small": {
+                    "count": 1
+                }
+            },
+            "tags": [
+                "myth",
+                "jungle"
+            ],
+            "biome": {
+                "biome": "jungle",
+                "total_pixels": 25,
+                "starting_pixels": 15,
+                "spread_priority": 1
+            },
+            "placement_rules": [
+                {
+                    "distance": {
+                        "chunk_distance_from_parent": [
+                            8,
+                            48
+                        ],
+                        "distance_to_zero_score": 0,
+                        "tag_parent": "piglin_bases_large",
+                        "weight": 50
+                    }
+                }
+            ]
+        },
+        // BROKENLANDS BIOME
+        {
+            "unique_card_id": "myth_brokenlands",
+            "placement_name": "brokenlands",
+            "placement_type": "biome",
+            "initial_villages": {
+                "small": {
+                    "count": 1
+                }
+            },
+            "tags": [
+                "myth",
+                "brokenlands"
+            ],
+            "biome": {
+                "biome": "brokenlands",
+                "total_pixels": 25,
+                "starting_pixels": 15,
+                "spread_priority": 1
+            },
+            "placement_rules": [
+                {
+                    "distance": {
+                        "chunk_distance_from_parent": [
+                            8,
+                            48
+                        ],
+                        "distance_to_zero_score": 0,
+                        "tag_parent": "piglin_bases_large",
+                        "weight": 50
+                    }
+                }
+            ]
+        },
+        // FOREST BIOME
+        {
+            "unique_card_id": "myth_forest",
+            "placement_name": "forest",
+            "placement_type": "biome",
+            "initial_villages": {
+                "small": {
+                    "count": 1
+                }
+            },
+            "tags": [
+                "myth",
+                "forest"
+            ],
+            "biome": {
+                "biome": "forest",
+                "total_pixels": 25,
+                "starting_pixels": 15,
+                "spread_priority": 1
+            },
+            "placement_rules": [
+                {
+                    "distance": {
+                        "chunk_distance_from_parent": [
+                            8,
+                            48
+                        ],
+                        "distance_to_zero_score": 0,
+                        "tag_parent": "piglin_bases_large",
+                        "weight": 50
+                    }
+                }
+            ]
+        },
+        // FROSTLANDS BIOME
+        {
+            "unique_card_id": "myth_frostlands",
+            "placement_name": "frostlands",
+            "placement_type": "biome",
+            "initial_villages": {
+                "small": {
+                    "count": 1
+                }
+            },
+            "tags": [
+                "myth",
+                "frostlands"
+            ],
+            "biome": {
+                "biome": "frostlands",
+                "total_pixels": 25,
+                "starting_pixels": 15,
+                "spread_priority": 1
+            },
+            "placement_rules": [
+                {
+                    "distance": {
+                        "chunk_distance_from_parent": [
+                            8,
+                            48
+                        ],
+                        "distance_to_zero_score": 0,
+                        "tag_parent": "piglin_bases_large",
+                        "weight": 50
+                    }
+                }
+            ]
+        }
+    ]
+}

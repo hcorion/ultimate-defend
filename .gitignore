@@ -1,0 +1,12 @@
+/*
+!/README.md
+!/.gitignore
+*jsconfig.json
+
+!/behavior_packs/
+/behavior_packs/*
+!/behavior_packs/myth_ultimate_defend/
+
+!/resource_packs/
+/resource_packs/*
+!/resource_packs/myth_ultimate_defend/
